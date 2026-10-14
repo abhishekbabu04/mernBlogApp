@@ -1,2 +1,2 @@
 
-export const BACKEND_URL = "https://abhi-blog-app.onrender.com";
+ export const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
